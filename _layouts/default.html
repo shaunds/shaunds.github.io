@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
  <head> 
-  <title>My Webpage</title>
+  <title>{{ page:title }}</title>
   <!-- link to main stylesheet --> 
   <link rel="stylesheet" type="text/css" href="/css/main.css"> 
  </head> 
@@ -13,9 +13,10 @@
       </ul> 
   </nav> 
   <div class="container"> 
-      <div class="blurb"> 
-          <h1>Hello World</h1> 
-      <p>Your page ....</p> 
+   
+      {{ content }}
+   
+  </div>
   <footer> 
         <ul> 
                <li><a href="https://github.com/shaunds/">github.com/shaunds</a></li> 
