@@ -1,0 +1,2 @@
+_site/ 
+<!-- we create _site/ to tell git to ignore the _site directory jekyll creates everytime you commit a change.-->
